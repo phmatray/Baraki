@@ -1,0 +1,8 @@
+{
+  "name": "baraki",
+  "version": "0.1.0",
+  "description": "Mode baraki de Charleroi : Claude cause comme un Carolo du Pays Noir, sans perdre une miette de précision technique.",
+  "author": { "name": "phmatray" },
+  "repository": "https://github.com/phmatray/Baraki",
+  "license": "MIT"
+}

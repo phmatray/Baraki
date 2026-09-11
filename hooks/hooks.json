@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sed '1,/^---$/d' \"${CLAUDE_PLUGIN_ROOT}/skills/baraki/SKILL.md\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
