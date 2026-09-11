@@ -14,6 +14,8 @@ Plugin Claude Code sur le modèle de [Caveman](https://github.com/JuliusBrussee/
 
 ## Installation
 
+Prérequis : [Node.js](https://nodejs.org) (le hook est un petit script Node, comme chez Caveman). Marche sur macOS, Linux et Windows.
+
 Dans Claude Code :
 
 ```
@@ -51,7 +53,6 @@ Pour le couper durablement : `/plugin disable baraki@baraki`.
 ## Limites connues
 
 - Après un `/compact`, le mode repart en `full` : le niveau choisi en cours de session n'est pas mémorisé.
-- Le hook utilise `sed` : macOS et Linux uniquement.
 
 ## Licence
 

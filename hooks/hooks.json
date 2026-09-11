@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "sed '1,/^---$/d' \"${CLAUDE_PLUGIN_ROOT}/skills/baraki/SKILL.md\"",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/baraki.js\"",
             "timeout": 5
           }
         ]
