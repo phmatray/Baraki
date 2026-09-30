@@ -1,3 +1,5 @@
+![Baraki banner](.github/banner.png)
+
 # Baraki
 
 > Awè fieu. Claude qui cause comme un baraki de Charleroi, sans perdre une miette de précision technique.
